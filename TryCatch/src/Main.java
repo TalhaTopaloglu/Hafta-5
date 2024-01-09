@@ -33,5 +33,8 @@ public class Main {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+        finally {
+            System.out.println("Kod Sona Erdi.");
+        }
     }
 }
